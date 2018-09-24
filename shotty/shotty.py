@@ -19,7 +19,7 @@ def filter_instances(project):
 def has_pending_snapshot(volume):
     snapshots = list(volume.snapshots.all())
     return snapshots and snapshots[0].state == 'pending'
-    
+
 
 @click.group()
 def cli():
