@@ -8,7 +8,7 @@ setup(
     description="Snapshotalyzer 3000 is a tool to mange AWS EC2 snapshots",
     license="GPLv3+",
     packages=['shotty'],
-    url="https://github.com/charliecao77/snapshotalyzer-30000",
+    url="https://github.com/charliecao77/snapshotalyzer",
     install_requires=[
         'click',
         'boto3'
