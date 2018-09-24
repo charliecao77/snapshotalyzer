@@ -18,3 +18,6 @@ shotty uses the Configuration file created by the AWS cli. e.g.
 *command* is instances, volumes, or snapshots
 *subcommand* - depends on command
 *project* is optional
+
+## install
+pip3 install ./dist/snapshotalyzer_30000-0.1-py3-none-any.whl --user
